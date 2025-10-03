@@ -1,0 +1,14 @@
+.flexBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:80%;
+  height: 75px;
+  border: 2px solid black;
+
+}
+.flexItem {
+    width:30%;
+    height: 50px;
+    border: 2px double red;
+}

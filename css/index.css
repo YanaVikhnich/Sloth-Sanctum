@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Roboto",
+sans-serif; */
+
+@font-face {
+    font-family: jungle;
+    src: url(../fonts/jungle.ttf);
+}
+.logo {
+    background: url(../images/logo.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: 100px;
+    font-family: jungle;
+    font-size: 48px;
+    padding-left:100px;
+    color: #135e46;
+    text-shadow: 3px 3px black;
+    transition: .3s
+}
+.logo:hover {
+    transform: translate(10px);
+    color: white;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    padding: 20px;
+    background: rgba(115, 167, 136, .8);
+    margin-bottom: 20px;
+
+}
+header a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 48px;
+}
+nav a {
+    font-family: jungle;
+    color: #b67b65;
+    text-shadow: 2px 2px black;
+    transition: .3s;
+}
+nav a:hover {
+    color: white;
+    transform: scale(1.2);
+}
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../images/slothEating.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+.meetSloths {
+    height: 400px;
+    width: 100%;
+    background: rgba(115, 167, 136, .8)
+}
+.sloths {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.meetSloths h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 0 40px 30px;
+    padding-top: 40px;
+}
+.sloths div {
+    width: 25%;
+    height: 240px;
+    border: 5px white solid;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sloth1 {
+    background: url(../images/slothHanging.jpg) no-repeat;
+}
+.sloth2 {
+    background: url(../images/slothClimbing.jpg) no-repeat;
+}
+.sloth3 {
+    background: url(../images/slothInTree.jpg) no-repeat;
+    
+}
+
+footer {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+footer img {
+    width: 50px;
+    
+}
